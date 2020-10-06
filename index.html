@@ -6,6 +6,7 @@
     <title>Студия</title>
   </head>
   <body>
+    <!-- Шапка -->
     <header>
       <nav>
         <a href="\">
@@ -20,22 +21,27 @@
       </nav>
 
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
+        <li>
+          <a class="contacts" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="contacts" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
 
-    <div>
-      <section>
+    <main>
+      <!-- Вступление -->
+      <section class="intro">
         <h1>
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
         <a href="">Заказать услугу</a>
       </section>
-    </div>
-
-    <main>
+      <!-- Преимущества -->
       <section class="our_advantage">
         <h2>Наши преимущества</h2>
         <ul>
@@ -69,29 +75,118 @@
           </li>
         </ul>
       </section>
+      <!-- О нас -->
       <section class="about_us">
         <h2>Чем мы занимаемся</h2>
         <ul>
           <li>
             <a href="">
-              <img src="./images/service1.jpg" alt="" />
+              <img
+                src="./images/service1.jpg"
+                alt="написание кода"
+                width="370px"
+              />
             </a>
           </li>
           <li>
             <a href="">
-              <img src="./images/service2.jpg" alt="" />
+              <img
+                src="./images/service2.jpg"
+                alt="оформление дизайна"
+                width="370px"
+              />
             </a>
           </li>
           <li>
             <a href="">
-              <img src="./images/service3.jpg" alt="" />
+              <img
+                src="./images/service3.jpg"
+                alt="подключение стилей"
+                width="370px"
+              />
             </a>
           </li>
         </ul>
       </section>
+      <!-- Команда -->
       <section class="our_team">
         <h2>Наша команда</h2>
+        <ul>
+          <li>
+            <figure>
+              <img
+                src="./images/igor.jpg"
+                alt="портрет игоря демьяненко"
+                width="270"
+              />
+              <figcaption>
+                Игорь Демьяненко
+                <span class="proffesion">Product Designer</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="./images/olga.jpg"
+                alt="портрет ольги репины"
+                width="270"
+              />
+              <figcaption>
+                Ольга Репина
+                <span class="proffesion">Frontend Developer</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="./images/nikolay.jpg"
+                alt="портрет николая тарасова"
+                width="270"
+              />
+              <figcaption>
+                Николай Тарасов
+                <span class="proffesion">Marketing</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="./images/mikhail.jpg"
+                alt="портрет михаила ермакова"
+                width="270"
+              />
+              <figcaption>
+                Михаил Ермаков
+                <span class="proffesion">UI Designer</span>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
       </section>
     </main>
+
+    <!-- Подвал -->
+    <footer>
+      <a href="\">
+        <span class="logo_part_1">Web</span>
+        <span class="logo_part_2">Studio</span>
+      </a>
+
+      <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
+
+      <ul>
+        <li>
+          <a class="contacts" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="contacts" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
